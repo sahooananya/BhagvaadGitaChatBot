@@ -1,0 +1,54 @@
+# ===================================================================
+# Python / FastAPI Backend
+# ===================================================================
+
+# Virtual Environment folder
+# Crucial for ignoring all installed packages
+backend/.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables - VERY IMPORTANT!
+# Never commit your secret keys or passwords.
+.env
+
+
+# ===================================================================
+# Node.js / React Frontend
+# ===================================================================
+
+# Dependencies folder (can be hundreds of MBs)
+frontend/node_modules/
+
+# Production build folder
+frontend/build/
+
+# Local environment variables for frontend
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+npm-debug.log*
+yarn-error.log
+yarn.lock
+
+
+# ===================================================================
+# IDE and OS-specific files
+# ===================================================================
+
+# JetBrains / PyCharm IDE files
+.idea/
+
+# VSCode IDE files
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db

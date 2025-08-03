@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+pymongo[srv]
+python-dotenv
+pandas
+transformers
+torch
+gunicorn
