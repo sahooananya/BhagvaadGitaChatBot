@@ -53,7 +53,7 @@ def tag_all_shlokas():
             
             collection.update_one(
                 {"_id": shloka["_id"]},
-                {"$set": {"emotion": top_label}}  # We are overwriting the 'emotion' field
+                {"$set": {"emotion": top_label}}  #overwriting the 'emotion' field
             )
 
             print(
@@ -68,7 +68,7 @@ def tag_all_shlokas():
     print("Finished tagging all shlokas.")
 
 
-# --- Run the Tagger ---
+
 if __name__ == "__main__":
     tag_all_shlokas()
     client.close()
